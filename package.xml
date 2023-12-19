@@ -4,7 +4,7 @@
   <name>Amr_robot</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="my_email@email.com">ducdo248</maintainer>
+  <maintainer email="dangducdo4@gmail.com">ducdo248</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
