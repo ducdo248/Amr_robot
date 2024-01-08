@@ -1,18 +1,29 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<package format="3">
+<package format="2">
+  <!-- EDIT: Package name, version description -->
   <name>amr_robot</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>The amr_robot package</description>
+
+  <!-- EDIT: Maintainer and author's name and email -->
   <maintainer email="dangducdo4@gmail.com">ducdo248</maintainer>
-  <license>TODO: License declaration</license>
+  <author email="dangducdo4@gmail.com">ducdo248</author>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- EDIT: License -->
+  <license>GNU General Public License Version 3</license>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <!-- Required for all packages -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Required for all Python packages -->
+  <depend>rospy</depend>
+
+  <!-- EDIT: Add/change depend tags to specify what this package depends on. -->
+  <!-- Valid keys are any Catkin packages in this workspace's src/ directory, -->
+  <!-- any installed ROS package, or any ROS-recognized system dependency -->
+  <!-- (see this link for the current list: https://github.com/ros/rosdistro/blob/master/rosdep/base.yaml)-->
+  <depend>std_msgs</depend>
 
   <export>
-    <build_type>ament_cmake</build_type>
   </export>
 </package>
